@@ -98,23 +98,26 @@ a {
     width: 570px;
     border-radius: 10px;
 }
+
+
 @media only screen and (max-width: 1365px) {
     .maintext-title {
         font-size: 44px;
         max-width: 630px;
         line-height: 58px;
     }
+
     .curs-title {
         font-size: 50px;
         line-height: 60px;
     }
-    
-    
+
+
     .curs-card {
         width: 510px;
         height: 380px;
     }
-    
+
     .curs-card__subtitle {
         font-size: 19px;
     }
@@ -140,13 +143,13 @@ a {
         font-size: 46px;
         line-height: 54px;
     }
-    
-    
+
+
     .curs-card {
         width: 450px;
         height: 400px;
     }
-    
+
     .curs-card__subtitle {
         font-size: 17px;
     }
@@ -154,6 +157,7 @@ a {
     .curs-sale {
         width: 450px;
     }
+
 }
 
 @media only screen and (max-width: 1065px) {
@@ -172,13 +176,13 @@ a {
         font-size: 40px;
         line-height: 48px;
     }
-    
-    
+
+
     .curs-card {
         width: 400px;
         height: 430px;
     }
-    
+
     .curs-card__subtitle {
         font-size: 16px;
     }
@@ -223,19 +227,19 @@ a {
         font-size: 54px;
         line-height: 64px;
     }
-    
+
     .curs-cards {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .curs-card {
         margin-top: 30px;
         width: 680px;
-        height: 361px;  
+        height: 361px;
     }
-    
+
     .curs-card__subtitle {
         font-size: 20px;
         line-height: 24px;
@@ -250,6 +254,7 @@ a {
         width: 680px;
         margin-top: 40px;
     }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -269,13 +274,13 @@ a {
         font-size: 50px;
         line-height: 60px;
     }
-    
-    
+
+
     .curs-card {
         width: 500px;
         height: 420px;
     }
-    
+
     .curs-card__subtitle {
         font-size: 19px;
     }
@@ -283,6 +288,7 @@ a {
     .curs-sale {
         width: 500px;
     }
+
 }
 
 @media only screen and (max-width: 580px) {
@@ -302,18 +308,18 @@ a {
         font-size: 46px;
         line-height: 52px;
     }
-    
-    
+
+
     .curs-card {
         width: 380px;
         height: 490px;
     }
-    
+
     .curs-card__subtitle {
         font-size: 18px;
     }
 
-    .curs-sale {
+    .curs-sale, .curs-videos {
         width: 380px;
     }
 }
@@ -333,13 +339,13 @@ a {
         font-size: 40px;
         line-height: 48px;
     }
-    
-    
+
+
     .curs-card {
         width: 280px;
         height: 580px;
     }
-    
+
     .curs-card__subtitle {
         font-size: 16px;
     }
