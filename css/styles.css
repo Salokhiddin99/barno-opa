@@ -149,10 +149,12 @@ a {
     border-radius: 10px;
     width: 480px;
 }
+
 .cours-end__page {
     display: flex;
     flex-direction: row-reverse;
 }
+
 .cours-end {
     display: flex;
     flex-direction: column;
@@ -161,6 +163,35 @@ a {
 
 .cours-videoyou {
     margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.lokol-tel {
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.tel-link {
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.footer-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 60px;
+}
+.footer-link {
+    margin: 0 10px;
 }
 @media only screen and (max-width: 1365px) {
     .maintext-title {
@@ -229,11 +260,11 @@ a {
         line-height: 54px;
         margin-bottom: 40px;
     }
-    
+
     .myself-text__subtitle {
         font-size: 18px;
     }
-    
+
     .myself-img {
         width: 420px;
     }
@@ -279,11 +310,11 @@ a {
         line-height: 46px;
         margin-bottom: 35px;
     }
-    
+
     .myself-text__subtitle {
         font-size: 16px;
     }
-    
+
     .myself-img {
         width: 380px;
     }
@@ -361,23 +392,23 @@ a {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .myself-text {
         width: 680px;
         text-align: center;
         margin-bottom: 40px;
     }
-    
+
     .myself-text__title {
         font-size: 54px;
         line-height: 64px;
     }
-    
+
     .myself-text__subtitle {
         font-size: 20px;
         line-height: 24px;
     }
-    
+
     .myself-img {
         width: 520px;
     }
@@ -417,7 +448,9 @@ a {
         font-size: 19px;
     }
 
-    .curs-sale, .myself-text, .myself-img {
+    .curs-sale,
+    .myself-text,
+    .myself-img {
         width: 500px;
     }
 
@@ -426,11 +459,11 @@ a {
         font-size: 50px;
         line-height: 60px;
     }
-    
+
     .myself-text__subtitle {
         font-size: 19px;
     }
-    
+
 
 }
 
@@ -462,7 +495,10 @@ a {
         font-size: 18px;
     }
 
-    .curs-sale, .curs-videos, .myself-text, .myself-img {
+    .curs-sale,
+    .curs-videos,
+    .myself-text,
+    .myself-img {
         width: 380px;
     }
 
@@ -470,9 +506,18 @@ a {
         font-size: 40px;
         line-height: 48px;
     }
-    
+
     .myself-text__subtitle {
         font-size: 18px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-list {
+        margin-left: 0;
+        margin-top: 20px;
     }
 }
 
@@ -502,7 +547,9 @@ a {
         font-size: 16px;
     }
 
-    .curs-sale, .myself-text, .myself-img {
+    .curs-sale,
+    .myself-text,
+    .myself-img {
         width: 280px;
     }
 
@@ -510,7 +557,7 @@ a {
         font-size: 36px;
         line-height: 40px;
     }
-    
+
     .myself-text__subtitle {
         font-size: 16px;
     }
