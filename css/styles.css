@@ -23,6 +23,11 @@ a {
     height: 100%;
     background: url('/img/background.png');
 }
+.main-img{
+    position: relative;
+    top:4px;
+    height:100%;
+}
 
 .main-box {
     display: flex;
@@ -98,7 +103,20 @@ a {
     width: 570px;
     border-radius: 10px;
 }
+.curs-card__link {
+    margin-bottom: 20px;
+}
+.cours-link {
+    font-weight: 500;
+    font-size: 21.6522px;
+    line-height: 29px;
+    color: #282828;
+    border-bottom: #FF9100 2px solid;
+}
 
+.myself {
+    margin-top: 80px;
+}
 
 @media only screen and (max-width: 1365px) {
     .maintext-title {
@@ -255,6 +273,10 @@ a {
         margin-top: 40px;
     }
 
+    .cours-link {
+        margin-left: 60px;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -319,7 +341,8 @@ a {
         font-size: 18px;
     }
 
-    .curs-sale, .curs-videos {
+    .curs-sale,
+    .curs-videos {
         width: 380px;
     }
 }
